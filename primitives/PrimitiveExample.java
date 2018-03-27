@@ -1,6 +1,6 @@
 @Component(immediate = true)
 @Service
-public class DistributedApplicationStore implements Store {
+public class PrimitiveExample implements Store {
 
     @Reference(cardinality = ReferenceCardinality.MANDATORY_UNARY)
     protected StorageService storageService;
